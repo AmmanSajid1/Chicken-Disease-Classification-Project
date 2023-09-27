@@ -1,8 +1,8 @@
 import os
 import sys
-from src.Chicken_Disease_Classifaction_Project.exception import CustomException
+from Chicken_Disease_Classifaction_Project.exception import CustomException
 import yaml
-from src.Chicken_Disease_Classifaction_Project.logger import logging
+from Chicken_Disease_Classifaction_Project.logger import logging
 import json
 import joblib
 from ensure import ensure_annotations

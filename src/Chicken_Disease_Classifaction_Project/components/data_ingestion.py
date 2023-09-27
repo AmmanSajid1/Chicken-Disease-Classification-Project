@@ -1,10 +1,10 @@
 import os
 import urllib.request as request
 import zipfile
-from src.Chicken_Disease_Classifaction_Project.logger import logging
-from src.Chicken_Disease_Classifaction_Project.exception import CustomException
-from src.Chicken_Disease_Classifaction_Project.utils.common import get_size
-from src.Chicken_Disease_Classifaction_Project.entity.config_entity import DataIngestionConfig
+from Chicken_Disease_Classifaction_Project.logger import logging
+from Chicken_Disease_Classifaction_Project.exception import CustomException
+from Chicken_Disease_Classifaction_Project.utils.common import get_size
+from Chicken_Disease_Classifaction_Project.entity.config_entity import DataIngestionConfig
 from pathlib import Path
 
 class DataIngestion:

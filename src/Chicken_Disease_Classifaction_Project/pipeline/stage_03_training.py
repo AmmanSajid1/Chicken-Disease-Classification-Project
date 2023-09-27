@@ -1,8 +1,8 @@
-from src.Chicken_Disease_Classifaction_Project.config.configuration import ConfigurationManager
-from src.Chicken_Disease_Classifaction_Project.components.prepare_callbacks import PrepareCallback
-from src.Chicken_Disease_Classifaction_Project.components.training import Training
-from src.Chicken_Disease_Classifaction_Project.logger import logging
-from src.Chicken_Disease_Classifaction_Project.exception import CustomException
+from Chicken_Disease_Classifaction_Project.config.configuration import ConfigurationManager
+from Chicken_Disease_Classifaction_Project.components.prepare_callbacks import PrepareCallback
+from Chicken_Disease_Classifaction_Project.components.training import Training
+from Chicken_Disease_Classifaction_Project.logger import logging
+from Chicken_Disease_Classifaction_Project.exception import CustomException
 import sys
 
 STAGE_NAME = "Training"

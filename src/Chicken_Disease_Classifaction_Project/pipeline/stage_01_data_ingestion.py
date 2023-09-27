@@ -1,8 +1,8 @@
 import sys
-from src.Chicken_Disease_Classifaction_Project.config.configuration import ConfigurationManager
-from src.Chicken_Disease_Classifaction_Project.components.data_ingestion import DataIngestion
-from src.Chicken_Disease_Classifaction_Project.logger import logging
-from src.Chicken_Disease_Classifaction_Project.exception import CustomException
+from Chicken_Disease_Classifaction_Project.config.configuration import ConfigurationManager
+from Chicken_Disease_Classifaction_Project.components.data_ingestion import DataIngestion
+from Chicken_Disease_Classifaction_Project.logger import logging
+from Chicken_Disease_Classifaction_Project.exception import CustomException
 
 STAGE_NAME = "Data Ingestion Stage"
 

@@ -1,4 +1,4 @@
-from src.Chicken_Disease_Classifaction_Project.entity.config_entity import TrainingConfig
+from Chicken_Disease_Classifaction_Project.entity.config_entity import TrainingConfig
 import tensorflow as tf
 from pathlib import Path
 

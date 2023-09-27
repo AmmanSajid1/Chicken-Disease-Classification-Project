@@ -3,6 +3,7 @@ from src.Chicken_Disease_Classifaction_Project.pipeline.stage_01_data_ingestion 
 from src.Chicken_Disease_Classifaction_Project.exception import CustomException
 from src.Chicken_Disease_Classifaction_Project.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.Chicken_Disease_Classifaction_Project.pipeline.stage_03_training import ModelTrainingPipeline
+from src.Chicken_Disease_Classifaction_Project.pipeline.stage_04_evaluation import EvaluationPipeline
 import sys
 
 STAGE_NAME = "Data Ingestion Stage"
@@ -36,6 +37,19 @@ try:
     obj.main()
     logging.info(f">>>>> stage {STAGE_NAME} completed <<<<<<\n\nx============x")
         
+
+except Exception as e:
+    raise CustomException(e,sys)
+
+
+STAGE_NAME = "Evaluation Stage"
+
+try:
+    logging.info(f"*********************")
+    logging.info(f">>>>>>> stage {STAGE_NAME} started <<<<<<<")
+    obj = EvaluationPipeline()
+    obj.main()
+    logging.info(f">>>>>> stage {STAGE_NAME} completed <<<<<\n\nx=========x")
 
 except Exception as e:
     raise CustomException(e,sys)

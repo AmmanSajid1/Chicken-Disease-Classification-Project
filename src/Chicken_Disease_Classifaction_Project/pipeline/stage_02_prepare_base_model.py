@@ -1,7 +1,7 @@
-from src.Chicken_Disease_Classifaction_Project.config.configuration import ConfigurationManager
-from src.Chicken_Disease_Classifaction_Project.components.prepare_base_model import PrepareBaseModel
-from src.Chicken_Disease_Classifaction_Project.logger import logging
-from src.Chicken_Disease_Classifaction_Project.exception import CustomException
+from Chicken_Disease_Classifaction_Project.config.configuration import ConfigurationManager
+from Chicken_Disease_Classifaction_Project.components.prepare_base_model import PrepareBaseModel
+from Chicken_Disease_Classifaction_Project.logger import logging
+from Chicken_Disease_Classifaction_Project.exception import CustomException
 import sys
 
 STAGE_NAME = "Prepare base model"

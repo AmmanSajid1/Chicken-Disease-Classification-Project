@@ -1,5 +1,5 @@
 import sys
-from src.Chicken_Disease_Classifaction_Project.logger import logging
+from Chicken_Disease_Classifaction_Project.logger import logging
 
 def error_message_details(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
